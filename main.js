@@ -31,7 +31,7 @@ canvas.add(block_image_object);
 window.addEventListener("keydown", my_keydown);
 function my_keydown(e)
 {
-    keypressed=e.keycode;
+    keypressed=e.keyCode;
     console.log(keypressed);
     if (e.shiftkey==true && keypressed=='80') {
        console.log("p and shift pressed togather");
