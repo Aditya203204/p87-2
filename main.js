@@ -48,11 +48,11 @@ function my_keydown(e)
         document.getElementById("current height").innerHTML=block_image_height; 
      }
      if (keypressed=='70') {
-         new_image('iron_face.png');
+         new_image('ironman_face.png');
          console.log("f");
      }
      if (keypressed=='66') {
-        new_image('spiderman_face.png');
+        new_image('spiderman_body.png');
         console.log("b");
     }
     if (keypressed=='76') {
@@ -64,7 +64,7 @@ function my_keydown(e)
         console.log("r");
     }
     if (keypressed=='72') {
-        new_image('captain america_left_hand.png');
+        new_image('captain_america_left_hand.png');
         console.log("r");
     } 
     if (keypressed=='38') {
